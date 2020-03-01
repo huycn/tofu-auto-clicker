@@ -1,0 +1,140 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 329, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Tofu Auto-Clicker"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Press left button on key:",IDC_CHECK_ENABLE_LEFT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,14,98,10
+    CONTROL         "",IDC_HOTKEY_TRIGGER_LEFT,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,114,13,54,13
+    CONTROL         "Repeat every",IDC_CHECK_REPEAT_LEFT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,178,14,58,10
+    EDITTEXT        IDC_EDIT_DELAY_LEFT,236,13,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "milliseconds",IDC_STATIC,279,15,38,8
+    CONTROL         "Press right button on key:",IDC_CHECK_ENABLE_RIGHT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,36,98,10
+    CONTROL         "",IDC_HOTKEY_TRIGGER_RIGHT,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,114,35,54,13
+    CONTROL         "Repeat every",IDC_CHECK_REPEAT_RIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,178,36,58,10
+    EDITTEXT        IDC_EDIT_DELAY_RIGHT,236,35,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "milliseconds",IDC_STATIC,279,37,38,8
+    CONTROL         "Press middle button on key:",IDC_CHECK_ENABLE_MIDDLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,58,98,10
+    CONTROL         "",IDC_HOTKEY_TRIGGER_MIDDLE,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,114,57,54,13
+    CONTROL         "Repeat every",IDC_CHECK_REPEAT_MIDDLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,178,58,58,10
+    EDITTEXT        IDC_EDIT_DELAY_MIDDLE,236,57,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "milliseconds",IDC_STATIC,279,59,38,8
+    LTEXT           "", IDC_STATIC, 12, 80, 305, 1, 0, WS_EX_STATICEDGE
+    CONTROL         "Avoid repeat more than one button at a time",IDC_CHECK_SINGLE_REPEAT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,90,159,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 12
+        RIGHTMARGIN, 317
+        VERTGUIDE, 109
+        VERTGUIDE, 175
+        VERTGUIDE, 234
+        VERTGUIDE, 278
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 102
+        HORZGUIDE, 19
+        HORZGUIDE, 41
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAIN_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Click.ico"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
